@@ -1,0 +1,30 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+pytest-cache-files-*/
+
+# Generated outputs
+demo_output/
+full_demo_output*/
+paper_output*/
+.venv-paper/
+
+# Never commit confidential field data or local working files
+data/
+private_data/
+*.las
+*.LAS
+*.xlsx
+*.xls
+*.sqlite
+*.db
+*.tif
+*.tiff
+*.zip
+
+# Local environment and editor files
+.env
+.DS_Store
+Thumbs.db
