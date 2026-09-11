@@ -8,7 +8,7 @@ All items must be checked before a journal submission. A local folder or ZIP is 
 - [ ] `python scripts/run_demo.py` succeeds in a clean virtual environment.
 - [ ] `python scripts/repository_audit.py` returns `PASS`.
 - [ ] README documents installation, input schema, expected outputs, seed, and limitations in English.
-- [ ] No raw LAS, manual-label workbook, well list, source path, private email, point-level prediction, or temporary file is tracked.
+- [ ] No raw LAS, manual-label workbook, well list or identifier, source path, private email, point-level label/prediction, trained model artifact, or temporary file is tracked; `.gitignore` and `repository_audit.py` both pass.
 - [ ] The manuscript's Computer Code Availability section contains the permanent repository URL.
 - [ ] The cover letter contains the same URL.
 - [ ] The data statement explains the confidential-data restriction and the public synthetic demonstration.

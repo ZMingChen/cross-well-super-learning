@@ -10,6 +10,13 @@ demo_output/
 full_demo_output*/
 paper_output*/
 .venv-paper/
+*_predictions.csv
+*_predictions.parquet
+*_point_predictions.csv
+*_point_predictions.parquet
+predictions/
+point_predictions/
+metrics_raw/
 
 # Never commit confidential field data or local working files
 data/
@@ -23,6 +30,24 @@ private_data/
 *.tif
 *.tiff
 *.zip
+*.parquet
+*.feather
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*manual*label*
+*manual*interpret*
+*well*list*
+*well*identifier*
+*raw*depth*
+*point*level*
 
 # Local environment and editor files
 .env
