@@ -89,7 +89,7 @@ def main() -> int:
             if path.suffix in {".md", ".txt"}:
                 # Policy text may intentionally name prohibited artifacts; only
                 # absolute local paths are sensitive in documentation.
-                pattern = re.compile(r"(?:[A-Z]:[\\/]|AppData)", re.I)
+                pattern = re.compile(r"(?:[A-Z]:\\|[A-Z]:/(?!/)|AppData)", re.I)
             else:
                 # Source code may legitimately use schema column names such as
                 # ``well_name`` and ``source_file``; reject only machine-local
